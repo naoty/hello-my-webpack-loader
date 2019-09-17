@@ -1,1 +1,2 @@
-console.log("here is entrypoint.");
+import sample from "./sample.md";
+console.log(sample);

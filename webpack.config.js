@@ -6,5 +6,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
-  mode: "development"
+  mode: "development",
+  module: {
+    rules: [
+      {
+        test: /\.md$/,
+        use: [
+          {
+            loader: path.resolve(__dirname, "lib/loader.js")
+          }
+        ]
+      }
+    ]
+  }
 };
