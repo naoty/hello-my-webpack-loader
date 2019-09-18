@@ -4,6 +4,9 @@
   "scripts": {
     "build": "webpack"
   },
+  "dependencies": {
+    "markdown-it": "^10.0.0"
+  },
   "devDependencies": {
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9"
