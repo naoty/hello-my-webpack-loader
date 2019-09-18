@@ -1,2 +1,2 @@
-import sample from "./sample.md";
-console.log(sample);
+import { html } from "./sample.md";
+console.log(html);
